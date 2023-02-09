@@ -18,18 +18,6 @@ int Time::get_hour() { //Gets current hour.
   return hour;
 }
 
-
-/*string Time::is_am() {
-  string indicator = "none";
-  if (hour <= 12) {
-    indicator = "am";
-  } else {
-    indicator = "pm";
-  }
-  return indicator;
-}*/
-
-
 int main() {
   Time time{}; //type Time var time{}
   int vhour = time.get_hour();
